@@ -1,0 +1,22 @@
+{
+    "model_name": "ConvNext_CLAHE",
+    "save_date": "2025-03-13 23:42:26",
+    "tensorflow_version": "2.9.0",
+    "model_config": {
+        "input_shape": [
+            224,
+            224,
+            3
+        ],
+        "output_shape": [
+            3
+        ],
+        "preprocessing_params": {
+            "clahe_clip_limit": 40.0,
+            "clahe_grid_size": [
+                8,
+                8
+            ]
+        }
+    }
+}
